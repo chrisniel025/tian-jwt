@@ -68,7 +68,7 @@
         //setcookie("token", $newToken, time()+3600);
         
         echo "<script>console.log('EXISTING TOKEN: $existingToken')</script>";
-        echo "<script>console.log('NEW TOKEN:  $newToken = NEW')</script>";
+        echo "<script>console.log('NEW TOKEN:  $newToken')</script>";
 
         if($newToken === $existingToken){
 
